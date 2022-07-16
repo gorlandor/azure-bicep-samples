@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {        
+        "storageAccountName_primary": {
+            "value": "" 
+        },
+        "storageAccountName_secondary": {
+            "value": ""
+        },
+        "serverName_primary": {
+            "value": "" 
+        },
+        "serverName_secondary": {
+            "value": ""
+        },
+        "vnetName_primary": {
+            "value": ""
+        },
+        "vnetName_secondary": {
+            "value": ""
+        },
+        "failoverGroupName": {
+            "value": ""
+        },
+        "location_primary": {
+            "value": ""
+        },
+        "location_secondary": {
+            "value": ""
+        },
+        "administratorLogin": {
+            "value": ""
+        },
+        "administratorLoginPassword": {
+            "value": "" 
+        },
+        "loginName": {
+            "value": ""
+        },
+        "sid": {
+            "value": ""
+        },
+        "principalType": {
+            "value": "" 
+        }
+    }
+}

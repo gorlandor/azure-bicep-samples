@@ -1,0 +1,6 @@
+rg="learn-az500-eus2-rg"
+templateFile="deploy-sql.bicep"
+az deployment group create \
+--resource-group $rg \
+--template-file $templateFile \
+--parameters "@deploy-sql.parameters.json"
