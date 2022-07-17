@@ -49,7 +49,7 @@ The name of the failover group must be globally unique within the .database.wind
 
 ## Diagram
 
-TODO: Include Diagram
+![Multi-Region Azure SQL with Auditing logs sent to Azure Storage](images/azure-architecture-diagram.png)
 
 ## Code
 
