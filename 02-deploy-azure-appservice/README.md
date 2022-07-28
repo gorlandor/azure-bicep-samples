@@ -10,3 +10,5 @@
 4. App Service Web App (dotnet in this case)
 5. Application Insights
 6. Diagnostic logging configuration for App Service and Storage Account into Log Analytics and Blob Storage
+
+![Azure App Service Logs stored into blob](images/azure-appservice-logs-into-blob.png)
