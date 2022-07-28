@@ -1,4 +1,4 @@
-01-deploy-ha-azure-sql-with-auditing-on-storage/my-deploy-sql.parameters.json
+**/my-**.parameters.json
 
 ## MacOS-specific files
 .DS_Store

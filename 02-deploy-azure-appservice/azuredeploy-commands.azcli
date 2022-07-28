@@ -1,0 +1,2 @@
+group="azure-bicep-samples-rg"
+az deployment group create --resource-group $group --template-file deploy-azure-appservice.bicep --parameters @deploy-azure-appservice.parameters.json
