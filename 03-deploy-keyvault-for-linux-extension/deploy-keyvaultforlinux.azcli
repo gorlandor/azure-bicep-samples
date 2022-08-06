@@ -1,0 +1,2 @@
+group="azure-bicep-samples-rg"
+az deployment group create --template-file deploy-keyvaultforlinux.bicep --resource-group $group --parameters @deploy-keyvaultforlinux.parameters.json 
