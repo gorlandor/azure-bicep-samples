@@ -28,7 +28,7 @@ resource KVForLinuxExt 'Microsoft.Compute/virtualMachines/extensions@2022-03-01'
         pollingIntervalInS: '3600'
         certificateStoreLocation: '/var/lib/waagent/Microsoft.Azure.KeyVault'
         observedCertificates: [
-          'https://${keyVaultName}.${environment().suffixes.keyvaultDns}/secrets/${secretName}'
+          'https://${keyVaultName}${environment().suffixes.keyvaultDns}/secrets/${secretName}'
         ]
       }
     }
