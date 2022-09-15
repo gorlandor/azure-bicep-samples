@@ -1,0 +1,6 @@
+accountName="learn-az305-cosmos"
+resourceGroupName="learn-az305-eastus2-rg"
+
+az deployment group create --resource-group $resourceGroupName --template-file "deploy-cosmosdb-sql-role-assignment.bicep" --parameters "@deploy-cosmosdb-sql-role-assignment.parameters.json"
+
+az cosmosdb sql role assignment list --account-name $accountName --resource-group $resourceGroupName
