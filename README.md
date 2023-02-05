@@ -7,3 +7,4 @@ Links:
 2. [Deploy Azure App Service](https://github.com/gorlandor/azure-bicep-samples/tree/main/02-deploy-azure-appservice)
 3. [Deploy KeyVault VM Extension For Linux](https://github.com/gorlandor/azure-bicep-samples/tree/main/03-deploy-keyvault-for-linux-extension)
 4. [Deploy Cosmos DB SQL Role Assignment](https://github.com/gorlandor/azure-bicep-samples/tree/main/04-deploy-cosmosdb-sql-role-assignment)
+4. [Deploy Azure Service Bus](https://github.com/gorlandor/azure-bicep-samples/tree/main/05-deploy-azure-service-bus)
