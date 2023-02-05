@@ -30,6 +30,8 @@ Allow for first-in, first-out (FIFO) producer and consumer scenarios and represe
 
 Allow for publish and subscribe scenarios. With Topics, all Subscriptions receive a copy of each message. Each subscriber can filter for the messages they care for by SQL Filter or [Correlation Filters](https://learn.microsoft.com/en-us/azure/service-bus-messaging/topic-filters) such as 'label/subject', 'sessionId', 'correlationId' and more.
 
+![Service Bus Topic Subscriptions - Bicep file](images/05-bicep-service-bus-topic-subscriptions.png)
+
 ![Service Bus Topic Subscriptions - Shows two subscriptions within Topic sbt-app-01: notifications-service and order-fulfillment-service](images/05-D-service-bus-topic-subscriptions.png)
 
 ## Shared Access Policies
@@ -50,6 +52,8 @@ Log Categories
 
 Metric Categories
 * AllMetrics
+
+![Service Bus Diagnostic Settings - Bicep file](images/05-bicep-service-bus-diagnostic-settings.png)
 
 ![Service Bus Diagnostic Settings - Logs and metrics configured to be sent to log analytics workspace: log-learn-az305](images/05-E-service-bus-diagnostic-settings-b.png)
 
