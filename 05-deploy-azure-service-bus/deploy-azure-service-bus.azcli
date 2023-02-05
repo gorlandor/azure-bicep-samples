@@ -1,0 +1,5 @@
+# az login
+az account set --subscription 5e134126-fd91-43fc-aa29-72c72e813449
+resourceGroupName="learn-az305-eus2-rg"
+
+az deployment group create --resource-group $resourceGroupName --template-file "deploy-azure-service-bus.bicep" --parameters "@my-deploy-azure-service-bus.parameters.json" 
